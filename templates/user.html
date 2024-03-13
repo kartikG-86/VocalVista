@@ -1,0 +1,9 @@
+{% from 'bootstrap5/form.html' import render_form %} {% block content %}
+{% include 'header.html' %}
+
+<h1> Hello</h1>
+<form class="mx-5 my-5" action="{{url_for('home')}}" method="post" enctype="multipart/form-data">
+    {{render_form(form)}}
+</form>
+{% include 'footer.html' %}
+{% endblock %}
