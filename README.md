@@ -1,5 +1,4 @@
-# Project Name
-
+# VocalVista
 A Text-to-Speech (TTS) application using Python's pyttsx3 library.
 
 ## Description
